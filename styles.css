@@ -83,3 +83,13 @@
   .site-footer>small{font-size:10px}
   .back-top{font-size:10px}
 }
+
+/* Ícones vetoriais no próprio HTML para aparência consistente em todos os dispositivos. */
+.ui-icon{width:14px;height:14px;display:inline-block;vertical-align:middle;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.note-star{display:inline-flex;align-items:center;justify-content:center;font-size:0}
+.note-star .ui-sparkle{width:25px;height:25px;stroke:var(--gold2);stroke-width:1.35}
+.contact-symbol{font-size:0}
+.contact-symbol svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round}
+.contact-symbol svg .icon-dot{fill:currentColor;stroke:none}
+.contact-link>b .ui-icon{width:15px;height:15px}
+.back-top .ui-icon{width:13px;height:13px;margin-left:4px}
